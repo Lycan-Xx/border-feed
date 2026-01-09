@@ -12,6 +12,15 @@ import SuccessPage from './pages/SuccessPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 
+/**
+ * Application root component that configures global providers, layout, and route mappings.
+ *
+ * The component wraps the app with a toast notification provider and cart provider,
+ * renders a shared Layout, and defines routes for home, shop, category, product details,
+ * checkout, success, about, and contact pages.
+ *
+ * @returns {JSX.Element} A React element tree for the application root with providers, layout, and routes.
+ */
 function App() {
   return (
     <ToastProvider>
